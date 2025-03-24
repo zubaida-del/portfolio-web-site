@@ -1,0 +1,79 @@
+/* General styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f5009;
+}
+
+header {
+    background-color: #452;
+    color: yelow;
+    padding: 10px;
+}
+
+header nav ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    text-align: center;
+}
+
+header nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+header nav ul li a {
+    color: orange;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+h1 {
+    color: #452;
+}
+
+section {
+    padding: 20px;
+    margin: 20px 0;
+}
+
+#projects .project-card {
+    background-color: white;
+    padding: 20px;
+    margin: 10px 0;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+form label {
+    display: block;
+    margin-top: 10px;
+}
+
+form input, form textarea {
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+    margin-bottom: 10px;
+}
+
+button {
+    background-color: #452;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #553;
+}
+
+footer {
+    text-align: center;
+    padding: 10px;
+    background-color: #332;
+    color: white;
+}
